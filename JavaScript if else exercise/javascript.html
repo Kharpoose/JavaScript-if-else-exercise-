@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Good Morning</title>
+    </head>
+    <body>
+        <button onclick="
+            const time = Math.random();
+            let currentTime = '';
+            const name = 'Çağrı';
+            if (time >= 0 && time < 1/3){
+                currentTime = 'Good Morning';
+            } else if (time >= 1/3 && time < 2/3) {
+                currentTime = 'Good Afternoon';
+            } else if (time >= 2/3 && time < 1) {
+                currentTime = 'Good Night'
+            }
+
+
+            alert(`${currentTime} ${name}`);
+            ">
+            Time
+        </button>
+        <script>
+
+        </script>
+    </body>
+</html>
